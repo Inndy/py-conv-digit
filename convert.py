@@ -54,15 +54,3 @@ def uppercase_to_digits(source):
 
     # 結算所有緩衝區的數字
     return result + buf + digit
-
-test_cases = [
-    '玖仟伍佰貳拾柒',
-    '玖仟伍佰貳拾柒萬捌仟陸佰捌拾玖',
-    '陸佰捌拾玖億零貳仟',
-    '柒億參仟萬元',
-    '壹拾柒萬零參佰元',
-    '嗡嗡嗡元',
-]
-
-for case in test_cases:
-    print(uppercase_to_digits(case))
